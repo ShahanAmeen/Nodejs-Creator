@@ -25,6 +25,7 @@ function init() {
     inquirer.prompt(questions)
     .then(data => {
         console.log(data)
+        fs.writeFileSync("test-README.md",generateMarkdown(data))
     })
 
 }
