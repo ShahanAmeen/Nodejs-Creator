@@ -14,6 +14,23 @@ const questions =
     type:"input",
     message:"Give a description of the application",
     },
+    {name:"installation",
+    type:"input",
+    message:"Include installation instructions for application",
+    },
+    {name:"usage",
+    type:"input",
+    message:"Include usage instructions for the application",
+    },
+    {name:"credits",
+    type:"input",
+    message:"Please insert an contributers to your application",
+    },
+    {name:"license",
+    type:"list",
+    message:"Select the software license for this application",
+    choices:["MIT", "Mozella", "Apache","None"]
+},
     /// ad rest of questions here, refer to assignment README
 ];  
 
