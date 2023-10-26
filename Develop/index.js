@@ -1,4 +1,5 @@
 // TODO: Include packages needed for this application
+// in nnode.js require = "import"
 const generateMarkdown = require("./utils/generateMarkdown")
 const inquirer = require("inquirer")
 const fs = require("fs");
@@ -30,12 +31,24 @@ const questions =
     type:"list",
     message:"Select the software license for this application",
     choices:["MIT", "Mozella", "Apache","None"]
-},
+    },
+    {name:"tests",
+    type:"input",
+    message:"Test inserted",
+    },
+    {name:"Github",
+    type:"input",
+    message:"Please give a github username",
+    },
+    {name:"Email",
+    type:"input",
+    message:"Please enter email to who you want to send to"
+    },
+
     /// ad rest of questions here, refer to assignment README
 ];  
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+
 
 // TODO: Create a function to initialize app
 function init() {
