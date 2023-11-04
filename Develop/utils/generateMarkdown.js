@@ -38,7 +38,7 @@ ${data.credits}
 
 ## License
 ${data.license}
-n
+
 ## Tests
 ${data.tests}
 

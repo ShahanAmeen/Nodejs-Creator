@@ -1,8 +1,8 @@
-# Nodejs-Creator
+# Node js Homework
 
 
 ## Description
-Created a readme file by using files
+In this application you will include multiple choice description to satisfy the requirements for te class
 
 ## Table of Contents
 
@@ -14,20 +14,20 @@ Created a readme file by using files
 - [License](#license)
 
 ## Installation
-Once readme file is generated upload on github
+Google chrome
 
 ## Usage 
-its done when readmefile shows title, description, installation, usage, credits, license,tests 
+1. open up vs code. 2. open terminal of index.js. 3. enter node index.js. 4. answer questions
 
 ## Credits
-shahan ameen
+Shahan Ameen
 
 ## License
-Apache
-n
-## Tests
+Mozella
 
+## Tests
+pass
 
 ## Questions
-checkout my github @ http://github.com/shahanameen
+checkout my github @ http://github.com/Shahan-Ameen
 or email me @shahanameen@gmail.com
